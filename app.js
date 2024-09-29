@@ -100,13 +100,45 @@
 // }
 
 // for8
-let k = prompt("Son kiriting");
-let n = parseInt(prompt("Yana son kiriting"));
+// let k = prompt("Son kiriting");
+// let n = parseInt(prompt("Yana son kiriting"));
 
-if (n > 0) {
-  for (let i = 0; i <= n; i++) {
-    console.log(k);
-  }
-} else {
-  console.log("Ikkinchi kiritgan soningiz 0 dan katta bo'lishi kerak");
-}
+// for (let i = 0; i < n; i++) {
+//   console.log(k);
+// }
+
+// for9
+// let a = parseInt(prompt("Son kiriting:"));
+// let b = parseInt(prompt("Son kiriting:"));
+
+// for (let i = a; i <= b; i++) {
+//   console.log(i);
+// }
+
+// for10
+// let a = parseInt(prompt("Son kiriting:"));
+// let b = parseInt(prompt("Son kiriting:"));
+
+// for (let i = a; i < b; i++) {
+//   if (i % 2 == 0) {
+//     console.log(i);
+//   }
+// }
+
+// for11
+// let narx = prompt("Shokolat narxi");
+// let suma = [];
+// for (let i = 1; i <= 10; i++) {
+//   suma = narx * i;
+//   console.log(suma);
+// }
+
+// for12
+// let narx = prompt("Shokolat narxi");
+// let suma = [];
+// for (let i = 0.1; i <= 1; i += 0.1) {
+//   suma = narx * i;
+//   console.log(Math.round(suma));
+// }
+
+// for 6
