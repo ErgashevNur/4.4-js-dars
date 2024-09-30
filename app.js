@@ -33,21 +33,21 @@
 
 // Uyga vazifa
 
-// for1
+// E.x1
 // let n = prompt("Son kiriting");
 
 // for (let i = 1; i <= n; i++) {
 //   console.log(i);
 // }
 
-// for2
+// E.x2
 // let i = 1;
 
 // for (let n = prompt("Son kiriting"); n >= i; n--) {
 //   console.log(n);
 // }
 
-// for3
+// E.x3
 // let n = prompt("Son kiriting");
 // let num = 0;
 
@@ -56,7 +56,7 @@
 // }
 // console.log(num);
 
-// for4
+// E.x4
 // let n = prompt("Son kiriting");
 // let box = [];
 
@@ -66,7 +66,7 @@
 //   }
 // }
 
-// for5
+// E.x5
 // let n = prompt("Son kiriting");
 // let box = [];
 
@@ -76,7 +76,17 @@
 //   }
 // }
 
-// for6
+// E.x6
+// let n = prompt("Son kiriting");
+// let box = 0;
+
+// for (let i = 1; i <= n; i++) {
+//   if (n % i === 0) {
+//     console.log(i);
+//   }
+// }
+
+// E.x7
 // let n = prompt("Son kiriting");
 // let box = 0;
 
@@ -88,7 +98,7 @@
 // }
 // console.log(box, "Bu javoblar yeg'inidis");
 
-// for7
+// E.x8
 // let son = prompt("Son kiriting");
 
 // for (let i = 0; i <= son; i++) {
@@ -99,7 +109,7 @@
 //   }
 // }
 
-// for8
+// for1
 // let k = prompt("Son kiriting");
 // let n = parseInt(prompt("Yana son kiriting"));
 
@@ -107,7 +117,7 @@
 //   console.log(k);
 // }
 
-// for9
+// for2
 // let a = parseInt(prompt("Son kiriting:"));
 // let b = parseInt(prompt("Son kiriting:"));
 
@@ -115,7 +125,7 @@
 //   console.log(i);
 // }
 
-// for10
+// for3
 // let a = parseInt(prompt("Son kiriting:"));
 // let b = parseInt(prompt("Son kiriting:"));
 
@@ -125,7 +135,7 @@
 //   }
 // }
 
-// for11
+// for4
 // let narx = prompt("Shokolat narxi");
 // let suma = [];
 // for (let i = 1; i <= 10; i++) {
@@ -133,7 +143,7 @@
 //   console.log(suma);
 // }
 
-// for12
+// for5
 // let narx = prompt("Shokolat narxi");
 // let suma = [];
 // for (let i = 0.1; i <= 1; i += 0.1) {
@@ -142,3 +152,9 @@
 // }
 
 // for 6
+let narx = prompt("Shokolat narxi");
+let suma = [];
+for (let i = 1; i <= 2; i += 0.1) {
+  suma = narx * i;
+  console.log(Math.round(suma));
+}
