@@ -152,9 +152,66 @@
 // }
 
 // for 6
-let narx = prompt("Shokolat narxi");
-let suma = [];
-for (let i = 1; i <= 2; i += 0.1) {
-  suma = narx * i;
-  console.log(Math.round(suma));
+// let narx = prompt("Shokolat narxi");
+// let suma = [];
+// for (let i = 1; i <= 2; i += 0.1) {
+//   suma = narx * i;
+//   console.log(Math.round(suma));
+// }
+
+// for7
+// let a = parseInt(prompt("a sonini kiriting:"));
+// let b = parseInt(prompt("b sonini kiriting:"));
+// let all = 0;
+
+// for (let i = a; i <= b; i++) {
+//   all += i;
+// }
+// console.log(all);
+
+// for8
+// let a = parseInt(prompt("a sonini kiriting:"));
+// let b = parseInt(prompt("b sonini kiriting:"));
+// let all = 1;
+
+// for (let i = a; i <= b; i++) {
+//   all *= i;
+// }
+// console.log(all);
+
+// for9
+// let a = parseInt(prompt("a sonini kiriting:"));
+// let b = parseInt(prompt("b sonini kiriting:"));
+// let all = 1;
+
+// for (let i = a; i <= b; i++) {
+//   all = i * i;
+// }
+// console.log(all);
+
+// for10
+// let n = parseInt(prompt("Son kiriting:"));
+// let all = 0;
+
+// for (let i = 1; i <= n; i++) {
+//   all += 1 / i;
+// }
+// console.log("s=", all);
+
+// for11
+// let n = parseInt(prompt("Son kiriting"));
+// let all = 0;
+
+// for (let i = n; i <= 2 * n; i++) {
+//   all += i * i;
+// }
+// console.log("s=", all);
+
+// for12
+let n = parseInt(prompt("Son Kiriting"));
+let all = 1;
+
+for (let i = 1.1; i <= n; i += 0.1) {
+  all *= i;
 }
+console.log(all);
